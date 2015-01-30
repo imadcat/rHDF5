@@ -8,7 +8,7 @@ Description: This R/Bioconductor package provides an interface between HDF5 and 
 License: Artistic-2.0
 LazyLoad: true
 Imports: zlibbioc
-Depends: methods
+Depends: methods, zlibbioc, bit64
 Suggests: bit64,BiocStyle
 SystemRequirements: GNU make
 biocViews: Infrastructure, DataImport
